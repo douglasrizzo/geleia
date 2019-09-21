@@ -13,8 +13,8 @@
     }
 
     header {
-      height: 180x;
-      line-height: 80px;
+      height: 150pt;
+      line-height: 150pt;
       text-align: center;
       /* border: 2px solid darkorange; */
       /* border-radius: 8px; */
@@ -27,6 +27,7 @@
       display: inline-block;
       vertical-align: middle;
       line-height: normal;
+      font-size:24pt;
     }
 
     h2,
@@ -35,7 +36,8 @@
       color: dodgerblue
     }
 
-    p,ul {
+    p,
+    ul {
       font-family: 'Roboto', sans-serif;
     }
 
@@ -55,28 +57,31 @@
   <![endif]-->
   <script>
     function chooseName() {
-      var lines = ["Evasivo de Livre Estudo em",
-        "Exilado de Livre Estudo em",
-        "Estagnado de Livre Estudo em",
-        "Excelente de Livre Estudo em",
-        "Entediado de Livre Estudo em",
-        "Equivocado de Livre Estudo em",
-        "Específico de Livre Estudo em",
-        "Extremista de Livre Estudo em",
-        "Excludente de Livre Estudo em",
-        "Enigmático de Livre Estudo em",
-        "Entorpecido de Livre Estudo em",
-        "Estereotipado de Livre Estudo em",
-        "Extraordinário de Livre Estudo em",
-        "de Estudiosos Latinos Especialistas em",
-        "de Estudos Lendário Especializado em",
-        "de Estudos Lastimável Especializado em",
-        "de Estudos Lacradores Especializado em",
-        "de Estudos Letárgicos Especializado em",
-        "de Estudos em Loop de Estudos em",
-        "de Estudos Lazarento Especializado em",
+      var lines = [
+        "de Encontros Linearmente Espaçados de",
         "de Estudantes Ludibriados a Estudar",
-        "Especificamente Lobotomizado para Estudar"];
+        "de Estudiosos Latinos Especialistas em",
+        "de Estudos em Loop de Estudos em",
+        "de Estudos Lacradores Especializado em",
+        "de Estudos Lastimável Especializado em",
+        "de Estudos Lazarento Especializado em",
+        "de Estudos Lendário Especializado em",
+        "de Estudos Letárgicos Especializado em",
+        "Enigmático de Livre Estudo em",
+        "Entediado de Livre Estudo em",
+        "Entorpecido de Livre Estudo em",
+        "Equivocado de Livre Estudo em",
+        "Especificamente Lobotomizado para Estudar",
+        "Específico de Livre Estudo em",
+        "Estagnado de Livre Estudo em",
+        "Estereotipado de Livre Estudo em",
+        "Evasivo de Livre Estudo em",
+        "Excelente de Livre Estudo em",
+        "Excludente de Livre Estudo em",
+        "Exilado de Livre Estudo em",
+        "Extraordinário de Livre Estudo em",
+        "Extremista de Livre Estudo em"
+      ];
 
       name = 'Grupo ' + lines[Math.floor(Math.random() * lines.length)] + ' Inteligência Artificial';
 
