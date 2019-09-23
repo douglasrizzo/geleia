@@ -2,97 +2,118 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
 
 <head>
-  <meta charset="utf-8" />
-  <meta name="generator" content="pandoc" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
-  <title class="title"></title>
-  <link href="https://fonts.googleapis.com/css?family=Roboto|Turret+Road&display=swap" rel="stylesheet">
-  <style type="text/css">
-    html {
-      background-color: slategrey
-    }
+    <meta charset="utf-8" />
+    <meta name="generator" content="pandoc" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+    <title class="title"></title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto|Turret+Road&display=swap" rel="stylesheet">
+    <style type="text/css">
+        html {
+            background-color: slategrey;
+            text-align: justify
+        }
 
-    header {
-      height: 150pt;
-      line-height: 150pt;
-      text-align: center;
-      /* border: 2px solid darkorange; */
-      /* border-radius: 8px; */
-      background-color: lightcyan
-    }
+        header {
+            height: 150pt;
+            line-height: 150pt;
+            text-align: center;
+            border: 2px solid darkorange;
+            border-radius: 8px;
+            background-color: lightcyan
+        }
 
-    h1 {
-      font-family: 'Turret Road', cursive;
-      color: dodgerblue;
-      display: inline-block;
-      vertical-align: middle;
-      line-height: normal;
-      font-size:24pt;
-    }
+        h1 {
+            font-family: 'Turret Road', cursive;
+            color: dodgerblue;
+            display: inline-block;
+            vertical-align: middle;
+            line-height: normal;
+            font-size: 24pt;
+        }
 
-    h2,
-    h3 {
-      font-family: 'Roboto', serif;
-      color: dodgerblue
-    }
+        .lv1summary {
+            font-size: 16pt;
+            font-family: 'Roboto', serif;
+            color: dodgerblue
+        }
 
-    p,
-    ul {
-      font-family: 'Roboto', sans-serif;
-    }
+        .lv2summary {
+            font-size: 12pt;
+            font-family: 'Roboto', serif;
+            color: dodgerblue
+        }
 
-    body {
-      background-color: white;
-      min-width: 500px;
-      max-width: 1440px;
-      padding-right: 20px;
-      padding-left: 20px;
-      /* border: 3px solid darkorange;
+        p,
+        ul,
+        ol {
+            font-family: 'Roboto', sans-serif;
+        }
+
+        body {
+            background-color: white;
+            min-width: 500px;
+            max-width: 1440px;
+            padding-right: 20px;
+            padding-left: 20px;
+            /* border: 3px solid darkorange;
       border-radius: 8px; */
-      margin: auto;
-    }
-  </style>
-  <!--[if lt IE 9]>
+            margin: auto;
+        }
+
+        ol {
+            counter-reset: item
+        }
+
+        ol li {
+            display: block
+        }
+
+        ol li:before {
+            content: counters(item, ".")" ";
+            counter-increment: item
+        }
+    </style>
+    <!--[if lt IE 9]>
     <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
   <![endif]-->
-  <script>
-    function chooseName() {
-      var lines = [
-        "de Encontros Linearmente Espaçados de",
-        "de Estudantes Ludibriados a Estudar",
-        "de Estudiosos Latinos Especialistas em",
-        "de Estudos em Loop de Estudos em",
-        "de Estudos Lacradores Especializado em",
-        "de Estudos Lastimável Especializado em",
-        "de Estudos Lazarento Especializado em",
-        "de Estudos Lendário Especializado em",
-        "de Estudos Letárgicos Especializado em",
-        "Enigmático de Livre Estudo em",
-        "Entediado de Livre Estudo em",
-        "Entorpecido de Livre Estudo em",
-        "Equivocado de Livre Estudo em",
-        "Especificamente Lobotomizado para Estudar",
-        "Específico de Livre Estudo em",
-        "Estagnado de Livre Estudo em",
-        "Estereotipado de Livre Estudo em",
-        "Evasivo de Livre Estudo em",
-        "Excelente de Livre Estudo em",
-        "Excludente de Livre Estudo em",
-        "Exilado de Livre Estudo em",
-        "Extraordinário de Livre Estudo em",
-        "Extremista de Livre Estudo em"
-      ];
+    <script>
+        function chooseName() {
+            var lines = [
+                "de Encontros Linearmente Espaçados de",
+                "de Estudantes Ludibriados a Estudar",
+                "de Estudiosos Latinos Especialistas em",
+                "de Estudos em Loop de Estudos em",
+                "de Estudos Lacradores Especializado em",
+                "de Estudos Lastimável Especializado em",
+                "de Estudos Lazarento Especializado em",
+                "de Estudos Lendário Especializado em",
+                "de Estudos Letárgicos Especializado em",
+                "Enigmático de Livre Estudo em",
+                "Entediado de Livre Estudo em",
+                "Entorpecido de Livre Estudo em",
+                "Equivocado de Livre Estudo em",
+                "Especificamente Lobotomizado para Estudar",
+                "Específico de Livre Estudo em",
+                "Estagnado de Livre Estudo em",
+                "Estereotipado de Livre Estudo em",
+                "Evasivo de Livre Estudo em",
+                "Excelente de Livre Estudo em",
+                "Excludente de Livre Estudo em",
+                "Exilado de Livre Estudo em",
+                "Extraordinário de Livre Estudo em",
+                "Extremista de Livre Estudo em"
+            ];
 
-      name = 'Grupo ' + lines[Math.floor(Math.random() * lines.length)] + ' Inteligência Artificial';
+            name = 'Grupo ' + lines[Math.floor(Math.random() * lines.length)] + ' Inteligência Artificial';
 
-      var items = document.getElementsByClassName("title");
-      for (var i = 0; i < items.length; i++) {
-        items.item(i).innerHTML = name;
-      }
-    }
+            var items = document.getElementsByClassName("title");
+            for (var i = 0; i < items.length; i++) {
+                items.item(i).innerHTML = name;
+            }
+        }
 
-    setInterval(chooseName, 5000);
-  </script>
+        setInterval(chooseName, 5000);
+    </script>
 </head>
 
 <body onload="chooseName()">
