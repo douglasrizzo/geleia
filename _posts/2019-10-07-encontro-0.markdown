@@ -4,12 +4,12 @@ title:  "Encontro 0 - Organização do grupo"
 date:   2019-10-07 19:00:00 -0300
 categories: encontros
 ---
-Nesta data, ocorreu o encontro 0 do Geleia. Foram discutidos tópicos como:
+Nesta data, ocorreu o encontro 0 do Geleia. Os seguintes tópicos foram discutidos:
 
-* periodicidade dos encontros (quinzenalmente);
+* periodicidade dos encontros (quinzenal);
 * data e hora padrão para os encontros (segundas-feiras, às 19h);
-* datas a para os encontros até o fim do ano;
-* temas dos encontros.
+* datas dos encontros até o fim do ano;
+* sugestões de temas para os encontros.
 
 Durante os encontros, que terão duração média de 1h, abre-se o espaço para um ou mais membros apresentarem algo que se encaixe nos seguintes meta-temas:
 
@@ -19,7 +19,7 @@ Durante os encontros, que terão duração média de 1h, abre-se o espaço para 
 * compartilhar boas práticas em metodologia de pesquisa;
 * um trabalho em andamento.
 
-Na data dos encontros, espera-se que pelo menos uma pessoa confirme a apresentação de algo nessas linhas, para que a reunião entre os membros não seja feita em vão. O resto do tempo livre na sala de reuniões pode ser utilizado para fins diversos.
+Espera-se que pelo menos uma atividade esteja confirmada antes da data de um encontro, para que a reunião entre os membros não seja feita em vão. O resto do tempo livre na sala de reuniões pode ser utilizado para fins diversos.
 
 É isso. Agradeço a presença de todos no encontro 0 do Geleia!
 
