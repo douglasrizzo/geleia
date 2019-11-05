@@ -21,7 +21,7 @@
 title: Grupo de Encontros Linearmente Espaçados em Inteligência Artificial
 email: douglasrizzom@gmail.com
 description: Grupo voltado para o estudo e pesquisa em Inteligência Artificial no Centro Universitário FEI. O Geleia é organizado principalmente por alunos e ex-alunos dos cursos de Mestrado e Doutorado em Inteligência Artificial Aplicada à Automação e Robótica.
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "/geleia" # the subpath of your site, e.g. /blog
 url: "https://douglasrizzo.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 
 minima:
