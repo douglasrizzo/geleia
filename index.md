@@ -1,11 +1,7 @@
 ---
-# Feel free to add content and custom Front Matter to this file.
-# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-
-title: Geleia - Grupo de Encontros Linearmente Espaçados em Inteligências Artificial
+title: Geleia - Grupo de Encontros Linearmente Espaçados em Inteligência Artificial
 layout: home
 ---
-
 <center>
     <img src="./logo.svg" alt="Este é o logo do Geleia" height="300px"/>
 </center>
