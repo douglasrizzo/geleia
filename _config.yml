@@ -18,16 +18,44 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Grupo de Estudos Especializado na Literatura de Inteligência Artificial
+title: Grupo de Encontros Linearmente Espaçados em Inteligência Artificial
 email: douglasrizzom@gmail.com
 description: Grupo voltado para o estudo e pesquisa em Inteligência Artificial no Centro Universitário FEI. O Geleia é organizado principalmente por alunos e ex-alunos dos cursos de Mestrado e Doutorado em Inteligência Artificial Aplicada à Automação e Robótica.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://douglasrizzo.github.io" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: douglasrizzo
-github_username:  douglasrizzo
+
+minima:
+  date_format: "%d/%m/%Y"
+
+  # generate social links in footer
+  social_links:
+    twitter: douglasrizzo
+    github:  douglasrizzo
+    # rss: rss
+    # dribbble:             jekyll
+    # facebook:             jekyll
+    # flickr:               jekyll
+    # instagram:            jekyll
+    # linkedin:             jekyll
+    # pinterest:            jekyll
+    # youtube:              jekyll
+    # youtube_channel:      UC8CXR0-3I70i1tfPg1PAE1g
+    # youtube_channel_name: CloudCannon
+    # telegram:             jekyll
+    # googleplus:           +jekyll
+    # microdotblog:         jekyll
+    # keybase:              jekyll
+
+    # Mastodon instances
+    # mastodon:
+    # - username: jekyll
+    #   instance: example.com
+    # - username: jekyll2
+    #   instance: example.com
 
 # Build settings
 theme: minima
+
 plugins:
   - jekyll-feed
 

@@ -1,20 +1,21 @@
 ---
-title: Geleia - Grupo de Encontros Linearmente Espaçados em Inteligência Artificial
+title: Home
 layout: home
 ---
-<center>
-    <img src="./logo.svg" alt="Este é o logo do Geleia" height="300px"/>
-</center>
 
-1.  [Introdução](#introdução)
-2.  [Objetivo](#objetivo)
-3.  [Quem pode participar](#quem-pode-participar)
-4.  [Encontros](#encontros)
-    1.  [Calendário e Localização](#calendário-e-localização)
+<div style="float: right">
+    <img src="./logo.svg" alt="Este é o logo do Geleia" height="160px"/>
+</div>
+
+* Do not remove this line (it will not be displayed)
+{:toc}
 
 ## Introdução
 
-Essa é a página do Geleia, um grupo em fase inicial de criação voltado
+
+
+
+Essa é a página do Geleia, um grupo em fase nascente voltado
 para o estudo e pesquisa em Inteligência Artificial no Centro
 Universitário FEI.
 
@@ -24,7 +25,7 @@ e Robótica.
 
 O foco do grupo é reunir alunos e pesquisadores da instituição
 periodicamente, promovendo o estudo e apresentação de trabalhos da área
-de Inteligência Artificial, tanto clássicos ou contemporâneos. O foco do
+de Inteligência Artificial, tanto clássicos como contemporâneos. O foco do
 grupo está no crescimento de seus membros como conhecedores da grande
 área de Inteligência Artificial. Não obstante, o Geleia acolhe (ao mesmo
 tempo que não se limita a) discutir trabalhos aplicados.
@@ -53,33 +54,32 @@ encontros! Convidados também são bem-vindos.
 
 ## Encontros
 
-Os encontros ocorrem com **periodicidade quinzenal** no Centro
-Universitário FEI. As datas dos encontros são marcadas com bastante
-antecedência para que todos possam se planejar para participar. Elas são
-disponibilizadas num Calendário do Google, o qual envia um e-mail a
-todos no dia anterior a cada reunião.
-
-O **objetivo dos encontros** é unir os membros do grupo periodicamente
+* **Objetivo:** unir os membros do grupo periodicamente
 para a realização de atividades de interesse comum, assim como ser um
 espaço para discutir e encaminhar os trabalhos do grupo.
+* **Local:** Centro Universitário FEI
+* **Periodicidade:** quinzenal
+* **Datas:** Marcadas com antecedência no início do semestre e disponibilizadas no calendário do Google, logo abaixo
+* **Duração média:** 1 h 30 min
+
+### Pautas
 
 Apesar das datas dos encontros serem planejadas com antecedência, as
 **pautas dos encontros** seguintes são decididas nos encontros
-anteriores e informadas aos participantes por e-mail, ou via o
-Calendário do Google. A pauta é decidida pelos membros do grupo. Tarefas
-simples podem ser assumidas por cada membro para serem realizadas no
-encontro seguinte, como por exemplo:
+anteriores e informadas aos participantes por Telegram ou via o
+Calendário do Google.
 
--   Leitura e apresentação de uma publicação recente ou relevante da
-    área;
--   Estudo conjunto de publicações de interesse aos membros do grupo;
--   Apresentação de trabalhos que os membros realizaram em outros
-    eventos;
--   Apresentação de trabalhos de convidados;
--   Ministração de aulas e cursos.
+Durante os encontros, abre-se o espaço para um ou mais membros apresentarem algo que se encaixe nos seguintes meta-temas:
+
+* um artigo de interesse;
+* uma ferramenta;
+* uma apresentação feita em outro local ou evento;
+* compartilhar boas práticas em metodologia de pesquisa;
+* um trabalho em andamento.
+
+Na data dos encontros, espera-se que pelo menos uma pessoa confirme a apresentação de algo nessas linhas, para que a reunião entre os membros não seja feita em vão. O resto do tempo livre na sala de reuniões pode ser utilizado para fins diversos.
 
 ### Calendário e Localização
-
 
 <iframe
     src="https://calendar.google.com/calendar/embed?height=600&amp;wkst=1&amp;bgcolor=%23ffffff&amp;ctz=America%2FSao_Paulo&amp;src=dTJnbjBsOXFkaGhzamxpbWhpczlmNzlhdjRAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&amp;color=%238E24AA"

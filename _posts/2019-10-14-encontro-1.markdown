@@ -4,6 +4,13 @@ title:  "Encontro 1 - Redes neurais de grafos"
 date:   2019-10-14 19:00:00 -0300
 categories: encontros
 ---
-No primeiro encontro do Geleia, eu (Douglas) realizei a apresentação de meus estudos recentes em redes neurais de grafos.
+No primeiro encontro do Geleia, eu (Douglas) realizei a apresentação de meus estudos recentes em redes neurais de grafos. Alguns tópicos abordados na apresentação:
 
-[Slides]({{ site.url }}/downloads/2019-10-14-encontro-1.pdf)
+1. o que são grafos;
+2. exemplos de bases de dados que podem ser modeladas como grafos;
+3. motivação para a criação de redes neurais que atuam sobre grafos;
+4. a teoria por trás da rede neural de grafos original (Gori, 2005);
+5. aplicações das GNNs (_graph neural networks_) em aprendizado por reforço;
+6. número de publicações recentes na área.
+
+Os slides estão disponíveis [aqui](/downloads/2019-10-14-encontro-1.pdf).
