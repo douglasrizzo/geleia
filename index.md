@@ -72,4 +72,4 @@ Espera-se que pelo menos uma atividade esteja confirmada antes da data de um enc
     width="100%" height="600" frameborder="0" style="border:0;" allowfullscreen>
 </iframe>
 
-[encontros]: /encontros
+[encontros]: /encontros/
