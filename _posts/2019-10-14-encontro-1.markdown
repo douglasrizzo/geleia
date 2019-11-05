@@ -1,0 +1,9 @@
+---
+layout: post
+title:  "Encontro 1 - Redes neurais de grafos"
+date:   2019-10-14 19:00:00 -0300
+categories: encontros
+---
+No primeiro encontro do Geleia, eu (Douglas) realizei a apresentação de meus estudos recentes em redes neurais de grafos.
+
+[Slides]({{ site.url }}/downloads/2019-10-14-encontro-1.pdf)
