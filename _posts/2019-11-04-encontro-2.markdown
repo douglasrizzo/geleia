@@ -6,4 +6,26 @@ categories: encontros
 ---
 Neste encontro, [Leonardo Anjoletto Ferreira](https://scholar.google.com/citations?user=zOT6K9QAAAAJ&hl=pt-PT&oi=ao), pós-doutorando na FEI, realizou uma apresentação sobre reproducibilidade de experimentos através do uso de **Docker**, **Vagrant** e **Ansible**, softwares que auxiliam a automatizar e padronizar a instalação e configuração de ambientes.
 
+Aqui estão, literalmente, os slides dele:
+
+
+```
+|-> Docker
+|   |
+|   |-> Dockerfile
+|   |-> docker-compose
+|
+|-> Vagrant
+|   |
+|   |-> bootstrap (screenfetch)
+|
+|-> Ansible
+    |
+    |-> 3 VM (vagrant) + Ansible (vagrant)
+    |-> comandos
+    |-> playbooks
+```
+
 Foram demonstrados exemplos do uso de Dockerfiles, `docker-compose`, Vagrantfiles e instanciação e configuração de múltiplas máquinas virtuais simultâneas usando Ansible.
+
+Os arquivos demonstrados na apresentação estão disponíveis [aqui](https://github.com/anjoletto/geleia-reprodutibilidade).
