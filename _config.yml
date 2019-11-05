@@ -18,7 +18,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Geleia - Grupo de Encontros Linearmente Espaçados em Inteligências Artificial
+title: Grupo de Estudos Especializado na Literatura de Inteligência Artificial
 email: douglasrizzom@gmail.com
 description: Grupo voltado para o estudo e pesquisa em Inteligência Artificial no Centro Universitário FEI. O Geleia é organizado principalmente por alunos e ex-alunos dos cursos de Mestrado e Doutorado em Inteligência Artificial Aplicada à Automação e Robótica.
 baseurl: "" # the subpath of your site, e.g. /blog
